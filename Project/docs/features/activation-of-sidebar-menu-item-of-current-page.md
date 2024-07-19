@@ -6,11 +6,11 @@ cover: ../.gitbook/assets/Activation  of Sidebar Menu Item.PNG
 coverY: 0
 ---
 
-# Activation  of Sidebar Menu Item of Current Page
+# Activation of Sidebar Menu Item of Current Page
 
 * In the entry .js file _`onSetPage()`_ include the following code
 
-for **Transactions:**
+### **Transactions:**
 
 {% code title="someTransactionForm.js" %}
 ```javascript
@@ -22,7 +22,7 @@ onSetPage() {
 ```
 {% endcode %}
 
-for **Masters**:
+### **Masters**:
 
 {% code title="someMasterForm.js" %}
 ```javascript
@@ -34,7 +34,7 @@ onSetPage() {
 ```
 {% endcode %}
 
-* **Important**
+### **Important**
 
 Make sure that menu name is having this format `#mnu" + entryId + trnType`
 

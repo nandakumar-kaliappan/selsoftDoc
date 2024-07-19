@@ -1,20 +1,24 @@
 ---
 description: >-
-  If the Progrss bar need to be updated in some JS function alone use the
+  If the Progress bar need to be updated in some JS function alone use the
   following code
 ---
 
-# Working only in JS
+# Working only in JS - Progress Bar
 
-* `sd.startProgess()`
+### Show the Progress Bar
 
-the above command will initiate the process
+* `jI("progressBar").css({ "display": "block", "z-index": "99999999" }).center();`
+
+### Update the Progress Bar
 
 * `sd.updateProgress("New Data",33)`
 
 This command will update the message as `New Data` and with `33%` completion
 
 <figure><img src="../../.gitbook/assets/progressbar.PNG" alt=""><figcaption></figcaption></figure>
+
+### Close the Progress Bar
 
 ```javascript
 jI("progressBar").hide();

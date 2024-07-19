@@ -4,10 +4,10 @@
 
 ## Features
 
-* [Activation  of Sidebar Menu Item of Current Page](features/activation-of-sidebar-menu-item-of-current-page.md)
+* [Activation of Sidebar Menu Item of Current Page](features/activation-of-sidebar-menu-item-of-current-page.md)
 * [Progress Bar](features/progress-bar/README.md)
-  * [Working only in JS](features/progress-bar/working-only-in-js.md)
-  * [Working with Controller function](features/progress-bar/working-with-controller-function.md)
+  * [Working only in JS - Progress Bar](features/progress-bar/working-only-in-js.md)
+  * [Working with Controller function - Progress Bar](features/progress-bar/working-with-controller-function.md)
 
 ## Grid
 
